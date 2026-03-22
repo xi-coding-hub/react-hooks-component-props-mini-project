@@ -1,8 +1,8 @@
-import blogData from "../data/blog";
-function Header() {
-    const name = blogData.name
+// import blogData from "../data/blog";
+function Header(props) {
+    
     return(
-        <h1>{name}</h1>
+        <h1>{props.name}</h1>
     )
 
 }
