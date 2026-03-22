@@ -3,7 +3,8 @@
 function About(props) {
     return(
         <aside>
-            <img>{props.img}</img>
+            <img alt="blog logo">{props.img}</img>
+            <p> {props.about}</p>
         </aside>
     )
 }
